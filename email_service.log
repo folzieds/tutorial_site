@@ -1,0 +1,189 @@
+2020-04-08 20:34:52,048 - INFO - Creating configuration parser
+2020-04-08 20:34:52,050 - INFO - Processing configurations...
+2020-04-08 20:34:52,050 - INFO - Configuration gotten...
+2020-04-08 20:48:10,489 - INFO - Creating configuration parser
+2020-04-08 20:48:10,490 - INFO - Processing configurations...
+2020-04-08 20:48:10,490 - INFO - Configuration gotten...
+2020-04-08 20:48:10,490 - ERROR - Could not find a property!!!
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 40, in __init__
+    self.port = self.config.get('server','host.port')
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'server'
+2020-04-08 20:49:41,062 - INFO - Creating configuration parser
+2020-04-08 20:49:41,065 - INFO - Processing configurations...
+2020-04-08 20:49:41,066 - INFO - Configuration gotten...
+2020-04-08 20:49:41,066 - ERROR - Could not find a property!!!
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 40, in __init__
+    self.port = self.config.get('server','host.port')
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'server'
+2020-04-08 20:51:08,238 - INFO - Creating configuration parser
+2020-04-08 20:51:08,240 - INFO - Processing configurations...
+2020-04-08 20:51:08,240 - INFO - Configuration gotten...
+2020-04-08 20:51:08,241 - ERROR - Could not find a property!!!
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 40, in __init__
+    self.port = self.config.get('server','host.port')
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'server'
+2020-04-08 20:58:06,422 - INFO - Creating configuration parser
+2020-04-08 20:58:06,426 - INFO - Processing configurations...
+2020-04-08 20:58:06,426 - INFO - Configuration gotten...
+2020-04-08 20:58:06,426 - ERROR - Could not find a property!!!
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 40, in __init__
+    self.port = self.config.get('server','host.port')
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'server'
+2020-04-08 21:00:44,164 - INFO - Creating configuration parser
+2020-04-08 21:00:44,169 - INFO - Processing configurations...
+2020-04-08 21:00:44,170 - INFO - Configuration gotten...
+2020-04-08 21:00:44,170 - ERROR - Could not find a property!!!
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 40, in __init__
+    self.port = self.config.get('server','host.port')
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 780, in get
+    d = self._unify_values(section, vars)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py", line 1146, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'server'
+2020-04-08 21:04:12,286 - INFO - Creating configuration parser
+2020-04-08 21:04:12,292 - INFO - Processing configurations...
+2020-04-08 21:04:12,292 - INFO - Configuration gotten...
+2020-04-08 21:05:18,615 - INFO - Creating configuration parser
+2020-04-08 21:05:18,617 - INFO - Processing configurations...
+2020-04-08 21:05:18,617 - INFO - Configuration gotten...
+2020-04-08 21:06:35,234 - ERROR - Could not send mail...
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 84, in send_email_ssl
+    with smtplib.SMTP_SSL(self.host,self.port) as smtp:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+2020-04-08 21:08:02,759 - INFO - Creating configuration parser
+2020-04-08 21:08:02,759 - INFO - Processing configurations...
+2020-04-08 21:08:02,759 - INFO - Configuration gotten...
+2020-04-08 21:08:45,361 - INFO - Creating configuration parser
+2020-04-08 21:08:45,364 - INFO - Processing configurations...
+2020-04-08 21:08:45,364 - INFO - Configuration gotten...
+2020-04-08 21:10:00,693 - ERROR - Could not send mail...
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 84, in send_email_ssl
+    with smtplib.SMTP_SSL(self.host,self.port) as smtp:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+2020-04-08 21:18:38,444 - INFO - Creating configuration parser
+2020-04-08 21:18:38,444 - INFO - Processing configurations...
+2020-04-08 21:18:38,445 - INFO - Configuration gotten...
+2020-04-08 21:19:53,866 - ERROR - Could not send mail...
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 84, in send_email_ssl
+    with smtplib.SMTP_SSL(self.host,self.port) as smtp:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+2020-04-08 21:22:56,019 - INFO - Creating configuration parser
+2020-04-08 21:22:56,021 - INFO - Processing configurations...
+2020-04-08 21:22:56,021 - INFO - Configuration gotten...
+2020-04-08 21:24:11,785 - ERROR - Could not send mail...
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 84, in send_email_ssl
+    with smtplib.SMTP_SSL(self.host,self.port) as smtp:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+2020-04-08 21:48:59,533 - INFO - Creating configuration parser
+2020-04-08 21:48:59,534 - INFO - Processing configurations...
+2020-04-08 21:48:59,534 - INFO - Configuration gotten...
+2020-04-08 21:50:15,483 - ERROR - Could not send mail...
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 84, in send_email_ssl
+    with smtplib.SMTP_SSL(self.host,self.port) as smtp:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+2020-04-09 05:43:17,840 - INFO - Creating configuration parser
+2020-04-09 05:43:17,844 - INFO - Processing configurations...
+2020-04-09 05:43:17,845 - INFO - Configuration gotten...
+2020-04-09 05:44:33,153 - ERROR - Could not send mail...
+Traceback (most recent call last):
+  File "/Users/aosu/Django/mysite/main/EmailService.py", line 84, in send_email_ssl
+    with smtplib.SMTP_SSL(self.host,self.port) as smtp:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out

@@ -1,0 +1,4 @@
+.gitignote
+.idea/**
+*.log
+*.pyc
